@@ -9,7 +9,7 @@ function Work(){
     return(
         <>
             <div name="work" className='section-text'>Work Experience</div>
-            <div className='work-container'>
+            <div className="flex flex-col justify-center">
                 <Job
                     alt='The Trade Desk Logo'
                     company='The Trade Desk'
