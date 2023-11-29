@@ -1,5 +1,6 @@
 import React from "react";
 import { IKImage } from "imagekitio-react";
+import "@fontsource/league-spartan";
 
 const urlEndpoint = "https://ik.imagekit.io/JarinS1/";
 
@@ -12,7 +13,7 @@ function About(){
                         <IKImage urlEndpoint={urlEndpoint} path="/headshot.jpg" className="rounded-2xl items-center justify-center"/>
                     </div>
                     <div className="flex flex-col justify-center mx-8">
-                        <h2>Hi, I'm Jarin</h2>
+                        <h2 className="font-header text-4xl">Hi, I'm Jarin</h2>
                         <p className="max-w-md">
                             I am a recent 2023 graduate of Santa Clara University with a B.S. in Computer Science 
                             & Engineering. I am skilled in languages such as C, C++, C#, JavaScript, and Python. 
