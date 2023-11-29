@@ -8,8 +8,8 @@ import iolani from "../images/iolani.png"
 function Work(){
     return(
         <>
-            <div name="work" className="h-screen w-full pt-20">
-                <p className="font-header text-4xl">Work Experience</p>
+            <div name="work" className="h-screen w-full snap-start">
+                <p className="font-header text-4xl pt-24">Work Experience</p>
                 <div className="flex flex-col justify-center">
                     <Job
                         alt='The Trade Desk Logo'

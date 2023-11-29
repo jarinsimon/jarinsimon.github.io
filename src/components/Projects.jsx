@@ -11,9 +11,9 @@ import TripplarLogo from "../images/TripplarLogo.png"
 function Projects(){
     return(
         <>
-            <div name="projects" className="h-screen w-full pt-20 bg-[#eff1ee]">
-                <p className="font-header text-5xl">Projects</p>
-                    <div className="flex mt-6 mx-auto grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 xl:w-5/6">
+            <div name="projects" className="snap-start snap-y h-screen w-full bg-[#eff1ee]">
+                <p className="font-header text-5xl pt-24">Projects</p>
+                    <div className="flex mt-6 mx-auto grid grid-cols-1 gap-x-6 gap-y-10 w-11/12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 xl:w-5/6">
                         <Tile 
                             title='Resume Website' 
                             dates='Oct 2023-Present' 
@@ -35,7 +35,7 @@ function Projects(){
                             dates='November 2021 - March 2022' 
                             description='Built a web app using Amadeus Travel APIs to display available flights based 
                             on user preferences.'
-                            skills='Bootstrap framework, JavaScript, Node.js'
+                            skills='Bootstrap, JavaScript, Node.js'
                             image={flight}>
                         </Tile>
                         <Tile 

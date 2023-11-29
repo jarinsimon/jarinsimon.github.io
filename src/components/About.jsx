@@ -7,8 +7,8 @@ const urlEndpoint = "https://ik.imagekit.io/JarinS1/";
 function About(){
     return(
         <>
-            <div name="about" className="h-screen w-full pt-20 bg-[#eff1ee]">
-                <div className="flex flex-row mx-auto mt-24 items-center justify-center w-11/12 max-h-fit">
+            <div name="home" className="snap-start h-screen w-full pt-20 bg-[#eff1ee]">
+                <div className="flex flex-row mx-auto mt-20 items-center justify-center w-11/12 max-h-fit">
                     <div className="flex flex-col justify-center h-[512px] w-[512px] mx-8">
                         <IKImage urlEndpoint={urlEndpoint} path="/headshot.jpg" className="rounded-2xl items-center justify-center"/>
                     </div>

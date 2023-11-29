@@ -3,8 +3,8 @@ import React from "react";
 function Tile(props){
     return(
         <>
-            <div className="group relative border-solid border-[medium] border-black rounded-[2em]">
-                <div className="flex mx-auto w-5/6 mt-6 overflow-hidden rounded-[2em] bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+            <div className="group relative border-solid border-[medium] border-black rounded-[2em] hover:shadow-2xl">
+                <div className="flex mx-auto w-5/6 mt-6 overflow-hidden rounded-[2em] bg-gray-200 lg:aspect-none lg:h-80">
                     <img className="h-full w-full object-cover border-solid border-[medium] rounded-[2em]" src={props.image}/>
                 </div>
                 <div className="mt-4 flex justify-between">
