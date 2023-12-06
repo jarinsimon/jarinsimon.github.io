@@ -17,9 +17,15 @@ function Extra(){
                         <div name="vertical-image" className="w-[35%] py-0">
                             <Slideshow/>
                         </div>
-                        <div className="flex flex-col w-[65%] space-y-[3%]">
-                            <img className="h-[47%] rounded-[1em] hover:opacity-70" src={team}/>
-                            <img className="h-[47%] rounded-[1em] hover:opacity-70" src={league}/>
+                        <div className="flex flex-col w-[65%]">
+                            <div name="horizontal-image" className="relative group top-0">
+                                <img className="rounded-[1em]" src={team}/>
+                                <div className="absolute text-[#f1f1f1] w-full transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">Finished 5th/300+ Teams Nationally</div>
+                            </div>
+                            <div name="horizontal-image" className="relative group">
+                                <img className="rounded-[1em]" src={league}/>
+                                <div className="absolute text-[#f1f1f1] w-full transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">2023 NCCVL Champs</div>
+                            </div>
                         </div>
                     </div>
                 </div>
