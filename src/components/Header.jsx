@@ -5,7 +5,7 @@ function Header(){
     return(
         <>
             <nav>
-                <div className="fixed top-0 left-0 z-50 flex flex-row justify-between items-center w-full h-20 bg-[#282a28] text-white">
+                <div className="fixed top-0 left-0 z-50 flex flex-row justify-between items-center w-full h-[8%] bg-[#282a28] text-white">
                     <div className="ml-24">
                         <p className="font-semibold text-3xl">Jarin Simon</p>
                     </div>
