@@ -7,11 +7,13 @@ import Work from "./Work";
 function Home(){
     return(
         <>
-            <Header/>
-            <About/>
-            <Work/>
-            <Projects/>
-            <Extra/>
+            <div className="snap-y">
+                <Header/>
+                <About/>
+                <Work/>
+                <Projects/>
+                <Extra/>
+            </div>
         </>
     );
 }
