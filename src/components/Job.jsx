@@ -3,9 +3,9 @@ import React from "react";
 function Job(props){
     return(
         <>
-        <div name="job" className="flex min-h-fit w-3/4 mx-auto my-4">
+        <div name="job" className="flex flex-col min-h-fit w-3/4 mx-auto my-4 md:flex-row">
                 <div name="job-logo" className="w-1/5">
-                    <img className="max-w-[125px] max-h-[130px] w-3/5 rounded-xl" src={props.image} alt={props.alt}/>
+                    <a href={props.link} target="_blank"><img className="max-w-[125px] max-h-[130px] w-3/5 rounded-xl" src={props.image} alt={props.alt}/></a>
                 </div>
                 <div className='w-[30%]'>
                     <div className='text-left'>
@@ -15,7 +15,7 @@ function Job(props){
                         <div className='mx-0 work-location'>{props.location}</div>
                     </div>
                 </div>
-                <div className='text-left w-6/12'>
+                <div className='text-left w-1/2'>
                     <p>
                         {props.description}
                     </p>

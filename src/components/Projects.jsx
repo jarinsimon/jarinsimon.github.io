@@ -11,7 +11,7 @@ function Projects(){
         <>
             <div name="projects" className="snap-start snap-y w-full bg-[#eff1ee] pb-[4%]">
                 <p className="font-header text-5xl pt-[4%] xl:pt-[6%]">Projects</p>
-                <div className="mt-[2%] mx-auto auto-rows-max grid grid-cols-2 gap-x-12 gap-y-10 w-5/6 xl:grid-cols-3 xl:w-3/4">
+                <div className="mt-[2%] mx-auto grid grid-cols-2 gap-x-12 gap-y-10 w-5/6 xl:grid-cols-3 xl:w-3/4">
                     <Tile 
                         title='Resume Website' 
                         dates='Oct 2023-Present' 
