@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60ad6b81.css",
+    "main.js": "/static/js/main.be922aea.js",
+    "static/js/787.4aa72492.chunk.js": "/static/js/787.4aa72492.chunk.js",
+    "static/media/seniors.jpg": "/static/media/seniors.457707d7e8eaba95afdd.jpg",
+    "static/media/dhmp.jpeg": "/static/media/dhmp.e7ad3ec38582efd1f9e6.jpeg",
+    "static/media/nationals-self.jpeg": "/static/media/nationals-self.90ad965253fc875ecde5.jpeg",
+    "static/media/clubsports.jpeg": "/static/media/clubsports.1c4d4d8bced59abd9d34.jpeg",
+    "static/media/league-champs.jpg": "/static/media/league-champs.dbf60855730bef36c38e.jpg",
+    "static/media/nationals-team.jpeg": "/static/media/nationals-team.1190c2f50d2282300488.jpeg",
+    "static/media/website.png": "/static/media/website.d45b778e78e2aceefb01.png",
+    "static/media/nationals-action.jpg": "/static/media/nationals-action.402ce81401257c74fc56.jpg",
+    "static/media/spotify_icon.jpg": "/static/media/spotify_icon.b9b624bcc0e3678e2813.jpg",
+    "static/media/TripplarLogo.png": "/static/media/TripplarLogo.72e561b1e3237a532d12.png",
+    "static/media/flight.png": "/static/media/flight.0bdaee668c872a7192b9.png",
+    "static/media/servco.png": "/static/media/servco.09329d3656672d9c4aa1.png",
+    "static/media/iolani.png": "/static/media/iolani.4c9041ccb26da5a4b62b.png",
+    "static/media/LeagueSpartan-Bold.otf": "/static/media/LeagueSpartan-Bold.caadcad8af387d419251.otf",
+    "static/media/nutriAR.png": "/static/media/nutriAR.643a733aed7cf1c4aa45.png",
+    "static/media/league-spartan-latin-400-normal.woff": "/static/media/league-spartan-latin-400-normal.deb195e28859aa5d29ab.woff",
+    "static/media/league-spartan-latin-ext-400-normal.woff": "/static/media/league-spartan-latin-ext-400-normal.ab818e15c38a9e043aef.woff",
+    "static/media/league-spartan-latin-400-normal.woff2": "/static/media/league-spartan-latin-400-normal.61dcc26e412577fed6e2.woff2",
+    "static/media/league-spartan-latin-ext-400-normal.woff2": "/static/media/league-spartan-latin-ext-400-normal.8a927ad1c4416391309d.woff2",
+    "static/media/league-spartan-vietnamese-400-normal.woff": "/static/media/league-spartan-vietnamese-400-normal.31e2bcc1681da1209462.woff",
+    "static/media/league-spartan-vietnamese-400-normal.woff2": "/static/media/league-spartan-vietnamese-400-normal.1293ee2979cf4953f2f5.woff2",
+    "static/media/TTD.svg": "/static/media/TTD.6a944fcaab0586e3aeba2f362b2c8814.svg",
+    "index.html": "/index.html",
+    "main.60ad6b81.css.map": "/static/css/main.60ad6b81.css.map",
+    "main.be922aea.js.map": "/static/js/main.be922aea.js.map",
+    "787.4aa72492.chunk.js.map": "/static/js/787.4aa72492.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60ad6b81.css",
+    "static/js/main.be922aea.js"
+  ]
+}
