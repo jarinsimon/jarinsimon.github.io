@@ -16,11 +16,11 @@ function Extra(){
                         <div className="flex flex-row lg:mt-[1%]">
                             <div className="flex flex-col w-[38.5%]">
                                 <div name="horizontal-image" className="relative group mb-auto">
-                                    <img className="rounded-xl" src={league}/>
+                                    <img className="rounded-xl" src={league} alt="President/Captain of SCU Men's Club Volleyball"/>
                                     <div className="absolute w-full transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">President/Captain of SCU Men's Club Volleyball<br/>2021-2023</div>
                                 </div>
                                 <div name="horizontal-image" className="relative group">
-                                    <img className="rounded-xl" src={team}/>
+                                    <img className="rounded-xl" src={team} alt="2023 NCCVL Champs, 5th place nationally"/>
                                     <div className="absolute w-full transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">2023 NCCVL Champs<br/>Finished 5th/300+ Teams Nationally</div>
                                 </div>
                             </div>
@@ -29,14 +29,14 @@ function Extra(){
                             </div>
                             <div className="flex flex-col w-[38.5%]">
                                 <div name="horizontal-image" className="relative group mb-auto h-[48%]">
-                                    <img className="rounded-xl" src={hawaii}/>
+                                    <img className="rounded-xl" src={hawaii} alt="2023 Hawaii Club Senior Class"/>
                                     <div className="absolute w-full transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">President/Luau Director of SCU Hawaii Club<br/>(Class of 2023 pictured)</div>
                                 </div>
                                 <div name="logos" className="flex flex-row h-[48%]">
-                                    <a href="https://open.spotify.com/user/jarins1" className="flex w-[48%] h-full mr-auto border-solid border-[medium] border-black rounded-xl items-center justify-center" target="_blank">
-                                        <img src={spotify} className="flex w-5/6 h-5/6"/>
+                                    <a href="https://open.spotify.com/user/jarins1" className="flex w-[48%] h-full mr-auto border-solid border-[medium] border-black rounded-xl items-center justify-center" target="_blank" rel="noreferrer">
+                                        <img src={spotify} className="flex w-5/6 h-5/6" alt="Link to my Spotify profile"/>
                                     </a>
-                                    <div className="flex w-[48%] h-full border-solid border-[medium] border-black rounded-xl items-center justify-center ">Coming Soon</div>
+                                    <div className="flex w-[48%] h-full border-solid border-[medium] border-black rounded-xl items-center justify-center">Coming Soon</div>
                                 </div>
                             </div>
                         </div>
