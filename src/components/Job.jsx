@@ -5,7 +5,7 @@ function Job(props){
         <>
         <div name="job" className="flex flex-col min-h-fit w-3/4 mx-auto my-4 md:flex-row">
                 <div name="job-logo" className="w-1/5">
-                    <a href={props.link} target="_blank"><img className="max-w-[125px] max-h-[130px] w-3/5 rounded-xl" src={props.image} alt={props.alt}/></a>
+                    <a href={props.link} target="_blank" rel="noreferrer"><img className="max-w-[125px] max-h-[130px] w-3/5 rounded-xl" src={props.image} alt={props.alt}/></a>
                 </div>
                 <div className='w-[30%]'>
                     <div className='text-left'>

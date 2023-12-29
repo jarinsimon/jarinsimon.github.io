@@ -12,19 +12,19 @@ const VballSlideshow = () => {
         <Slide className="h-full">
             <div className="each-slide-effect relative group">
                 <div className="flex mx-auto bg-cover w-11/12">
-                    <img className="rounded-xl" src={images[0]}/>
+                    <img className="rounded-xl" src={images[0]} alt="2023 1st Team All-League"/>
                     <div className="absolute w-11/12 transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">2023 1st Team All-League</div>
                 </div>
             </div>
             <div className="each-slide-effect relative group">
                 <div className="flex mx-auto bg-cover w-11/12">
-                    <img className="rounded-xl" src={images[1]}/>
+                    <img className="rounded-xl" src={images[1]} alt="2023 NCVF 2nd Team All-American"/>
                     <div className="absolute w-11/12 transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">2023 NCVF <br/>2nd Team All-American</div>
                 </div>
             </div>
             <div className="each-slide-effect relative group">
                 <div className="flex mx-auto bg-cover w-11/12">
-                    <img className="rounded-xl" src={images[2]}/> 
+                    <img className="rounded-xl" src={images[2]} alt="2023 SCU Club Sports Male Athlete of the Year"/> 
                     <div className="absolute w-11/12 transition-[0.5s] duration-[ease] opacity-0 text-[white] bg-[black] bg-opacity-50 text-xl text-center bottom-0 group-hover:opacity-100">2023 SCU Club Sports<br/>Male Athlete of the Year</div>
                 </div>
             </div>
